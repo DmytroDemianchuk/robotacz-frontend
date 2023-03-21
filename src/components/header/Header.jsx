@@ -59,7 +59,7 @@ const Header = () => {
                         </a>
                     </li>
 
-                    <li className="nav__item">
+                    {/* <li className="nav__item">
                         <a href="#services"
                          onClick={() => setActiveNav('#services')}
                          className={activeNav === "#services" ? "nav__link active-link"
@@ -69,7 +69,7 @@ const Header = () => {
                             <i className="uil uil-briefcase-alt nav__icon"></i>
                              Вакансії
                         </a>
-                    </li>
+                    </li> */}
 
                     {/* <li className="nav__item">
                         <a href="#portfolio"
