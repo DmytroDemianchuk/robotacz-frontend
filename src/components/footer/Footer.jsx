@@ -14,34 +14,34 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#skills" className="footer__link">Зворотній св'язок</a>
+                        <a href="#skills" className="footer__link">Допомога</a>
                     </li>
-
+{/* 
                     <li>
                         <a href="#services" className="footer__link">Вакансії</a>
-                    </li>
+                    </li> */}
                 </ul>
 
                 <div className="footer__social">
                 <a href="https://www.facebook.com/"
-            className="footer__social-link" target="_blank"
+            className="footer__social-link-facebook" target="_blank"
             >
                 <i class="bx bxl-facebook"></i>
             </a>
 
             <a href="https://instagram.com/"
-            className="footer__social-link" target="_blank">
+            className="footer__social-link-instagram" target="_blank">
                  <i class="bx bxl-instagram"></i>
             </a>
 
             <a href="https://twitter.com/"
-            className="footer__social-link" target="_blank">
+            className="footer__social-link-twitter" target="_blank">
                 <i class="bx bxl-twitter"></i>
             </a>
                 </div>
 
                 <span className="footer__coppy">
-                    &#169; Робота в Чехії
+                1998-2023 &#169; Robotacz.com. All Right Reserved
                 </span>
             </div>
         </footer>

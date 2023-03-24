@@ -33,7 +33,7 @@ import "./contact.css"
             submitHandler = e => {
                 e.preventDefault()
                 console.log(this.state)
-                axios.post('http://207.154.193.114/api/people', this.state)
+                axios.post('http://207.154.193.114:80/api/people', this.state)
                 .then(response => {
                     console.log(response)
                 })
@@ -72,7 +72,7 @@ import "./contact.css"
                         <h3 className="contact__card-title">Gmail</h3>
                         <span className="contact__card-data"></span>
 
-                        <a href="dwad" className="contact__button">
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGMvfvwwsjtcwNrbnfbVsGlddDVNNjCPRrsMXNtnmNMxdfRTCHwFsRxTKkvXSgsTHFhGNWN" className="contact__button">
                             Надіслати смс{""}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
@@ -80,12 +80,13 @@ import "./contact.css"
                     <div className="contact__card">
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
 
-                        <h3 className="contact__card-title">Whatsapp</h3>
-                        <span className="contact__card-data">(+380)980129590</span>
+                        <h3 className="contact__card-title">Whatsapp/Viber</h3>
+                        <span className="contact__card-data"></span>
 
-                        {/* <a href="hhtps/wahtspa more photo" className="contact__button">
-                        Перейти за посиланням{""}
-                        <i className="bx bx-right-arrow-alt contact__button-icon"></i></a> */}
+                        
+
+                        <a className="contact__button">
+                        (+380)980129590 - Дмитрo</a>
                     </div>
 
                     <div className="contact__card">
@@ -94,7 +95,7 @@ import "./contact.css"
                         <h3 className="contact__card-title">Messenger</h3>
                         <span className="contact__card-data"></span>
 
-                        <a href="https://"
+                        <a href="https://www.facebook.com/"
                         className="contact__button">
                             Перейти за посиланням{""}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>

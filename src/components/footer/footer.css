@@ -34,7 +34,7 @@
     column-gap: 1.25rem;
 }
 
-.footer__social-link {
+.footer__social-link-facebook {
     background-color: black;
     color: white;
     font-size: 1.25rem;
@@ -43,9 +43,36 @@
     display: inline-flex;
 }
 
-.footer__social-link:hover {
-    background-color: rgb(54, 69, 79);
+.footer__social-link-instagram {
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1.4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
 }
+
+.footer__social-link-twitter {
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1.4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+}
+
+.footer__social-link-facebook:hover {
+    background-color: #3b5998;
+}
+
+.footer__social-link-instagram:hover {
+    background-color: #E1306C;
+}
+
+.footer__social-link-twitter:hover {
+    background-color:#00acee;
+}
+
 
 .footer__coppy {
     display: block;
@@ -60,8 +87,8 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
     .footer__social-link{
-        padding: 0.25rem;
-        border-radius: 0.25rem;
-        font-size: 1rem;
+        padding: 1.2rem;
+        border-radius: 0.7rem;
+        font-size: 1.4rem;
     }
   }
