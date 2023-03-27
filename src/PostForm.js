@@ -19,7 +19,7 @@ class PostForm extends Component {
     submitHandler = e => {
         e.preventDefault()
         console.log(this.state)
-        axios.post('http://localhost:8080/api/people', this.state)
+        axios.post('http:/207.154.193.114/api/people', this.state)
         .then(response => {
             console.log(response)
         })
