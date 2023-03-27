@@ -7,7 +7,7 @@ import Skills from './components/skills/Skills'
 // import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-import ScrollUp from './components/scrollup/ScrollUp';
+// import ScrollUp from './components/scrollup/ScrollUp';
 // import PostForm from './PostForm';
 
 
@@ -26,7 +26,7 @@ const App = () => {
       {/* <PostForm /> */}
     </main>
     <Footer />
-    <ScrollUp />
+    {/* <ScrollUp /> */}
     </>
   )
 }
