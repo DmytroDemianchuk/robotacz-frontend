@@ -10,11 +10,13 @@ const Footer = () => {
 
                 <ul className="footer__list">
                     <li>
-                        <a href="#about" className="footer__link">Про нас</a>
+                        {/* <a href="#skills" className="footer__link">Допомога</a> */}
+                        <a>+420776058183</a>
                     </li>
 
                     <li>
-                        <a href="#skills" className="footer__link">Допомога</a>
+                        {/* <a href="#skills" className="footer__link">Допомога</a> */}
+                        <a>+420776058183</a>
                     </li>
 {/* 
                     <li>
@@ -41,7 +43,7 @@ const Footer = () => {
                 </div>
 
                 <span className="footer__coppy">
-                1998-2023 &#169; Robotacz.com. All Right Reserved
+                2023 &#169; Robotacz.com. All Right Reserved
                 </span>
             </div>
         </footer>

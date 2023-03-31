@@ -10,12 +10,22 @@
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
+
+}
+
+.container__article {
+    text-align: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+
 }
 
 .contact__info {
     display: grid;
     row-gap: 1rem;
     grid-template-columns: 300px;
+    margin-top: 2rem;
 }
 
 .contact__card {
@@ -70,8 +80,9 @@
 
 .contact__form-div {
     position: relative;
-    margin-bottom: 2.8rem;
-    height: 4.4rem;
+    margin-bottom: 3rem;
+    height: 5rem;
+    margin-top: 3.5rem;
 }
 
 .contact__form-input {
@@ -120,6 +131,10 @@
 
 .contact__application:hover {
     background-color: rgb(229, 228, 226);
+}
+
+.contact__instagram {
+    text-align: center;
 }
 
 /* =========breackpoints========= */
