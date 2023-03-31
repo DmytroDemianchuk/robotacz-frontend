@@ -16,29 +16,29 @@ const Header = () => {
       <header className="header">
         <nav className="nav container">
             <a href="index.html" className="nav__logo">
-                На головну
+                {/* На головну */}
                 </a>
 
             <div className={Toggle ? "nav__menu show-menu" :
             "nav__menu"}>
                 <ul className="nav__list grid">
                     <li className="nav__item">
-                        <a href="#home"
-                        onClick={() => setActiveNav('#home')}
+                        <a href="#holovna"
+                        onClick={() => setActiveNav('#holovna')}
                         className={activeNav === "#home" ? "nav__link active-link"
                         : "nav__link"
                             }
                         >
                             <i className="uil uil-estate nav__icon"></i>
-                             Робота в Чехії
+                             Головна
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#about"
-                         onClick={() => setActiveNav('#about')}
+                        <a href="#pro_nas"
+                         onClick={() => setActiveNav('#pro_nas')}
                          className={
-                            activeNav === "#about" ? "nav__link active-link"
+                            activeNav === "#pro_nas" ? "nav__link active-link"
                          : "nav__link"
                              }
                         >     
@@ -46,7 +46,7 @@ const Header = () => {
                              Про нас
                         </a>
                     </li>
-
+{/* 
                     <li className="nav__item">
                         <a href="#skills"
                          onClick={() => setActiveNav('#skills')}
@@ -57,7 +57,7 @@ const Header = () => {
                             <i className="uil uil-file-alt nav__icon"></i>
                              Допомога
                         </a>
-                    </li>
+                    </li> */}
 
                     {/* <li className="nav__item">
                         <a href="#services"
@@ -84,9 +84,9 @@ const Header = () => {
                     </li> */}
 
                     <li className="nav__item">
-                        <a href="#contact"
-                         onClick={() => setActiveNav('#contact')}
-                         className={activeNav === "#contact" ? "nav__link active-link"
+                        <a href="#kontakty"
+                         onClick={() => setActiveNav('#kontakty')}
+                         className={activeNav === "#kontakty" ? "nav__link active-link"
                          : "nav__link"
                              }
                         >

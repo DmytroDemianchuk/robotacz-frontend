@@ -50,6 +50,35 @@
     font-size: var(--tiny-font-size);
 }
 
+.skills__required_first {
+    padding: 1rem 15rem;
+    margin-bottom: 1rem;
+}
+
+.skills__required_second {
+    padding: 1rem 15rem;
+    margin-bottom: 3rem; 
+}
+/* .about__me_info {
+    text-align: left;
+    padding: 0rem 15rem;
+    margin-bottom: 3rem;
+} */
+
+/* /* .about__me_info_second {
+    text-align: left;
+    padding: 0rem 15rem;
+    margin-bottom: 5rem;
+} */
+
+/* .about__description {
+    text-align: left;
+    padding: 0 5rem;
+    margin-bottom: 4rem;
+} */ */
+
+
+
 /* =========breackpoints========= */
 
 /* For large devices */
@@ -68,6 +97,17 @@
 
     .skills__content {
         padding: 1.5rem;
+    }
+
+    .skills__required_first {
+        padding: 0 1rem;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .skills__required_second  {
+        padding: 0 1rem;
+        margin-bottom: 2rem;
     }
   }
   

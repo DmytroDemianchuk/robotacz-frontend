@@ -57,36 +57,42 @@ import "./contact.css"
             return (
 
                 //  is not yet FormList
-        <section className="contact section" id="contact">
+        <section className="contact section" id="kontakty">
             <h2 className="section__title">Будьмо на зв'язку !</h2>
             <span className="section__subtitle">Наші контакти</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Наші дані</h3>
+                    <h3 className="contact__instagram">Наші дані</h3>
 
                 <div className="contact__info">
                     <div className="contact__card">
-                        <i className="bx bx-mail-send contact__card-icon"></i>
+                        <i className="bx bxl-instagram contact__card-icon"></i>
 
-                        <h3 className="contact__card-title">Gmail</h3>
+                        <h3 className="contact__card-title">Instagram</h3>
                         <span className="contact__card-data"></span>
 
-                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGMvfvwwsjtcwNrbnfbVsGlddDVNNjCPRrsMXNtnmNMxdfRTCHwFsRxTKkvXSgsTHFhGNWN" className="contact__button">
-                            Надіслати смс{""}
+                        <a href="" className="contact__button">
+                            Переглянути сторінку{""}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
 
-                        <h3 className="contact__card-title">Whatsapp/Viber</h3>
+                        <h3 className="contact__card-title">Whatsapp/Viber/Telegram</h3>
                         <span className="contact__card-data"></span>
 
                         
 
                         <a className="contact__button">
-                        (+380)980129590 - Дмитрo</a>
+                        (+380)980129590</a>
+                        <a className="contact__button">
+                        (+420)777590130</a>
+                        <a className="contact__button">
+                        (+420)776058183</a>
+
+                        {/* <i className="bx bx-right-arrow-alt contact__button-icon"></i></a> */}
                     </div>
 
                     <div className="contact__card">
@@ -97,7 +103,7 @@ import "./contact.css"
 
                         <a href="https://www.facebook.com/"
                         className="contact__button">
-                            Перейти за посиланням{""}
+                            Переглянути сторінку{""}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
@@ -105,7 +111,7 @@ import "./contact.css"
 
 {/* /PostForm */}
                 <div className="contact__content">
-                    <h3 className="contact__title">Заповнити свої дані</h3>
+                    <h3 className="contact__instagram">Заповнити заяву</h3>
 
                     <form onSubmit={this.submitHandler}
                     className="contact__form">
@@ -133,6 +139,7 @@ import "./contact.css"
                         name="phone_number"
                         maxLength={13}
                         minLength={9}
+                        pattern="[0-9]*"
                         value={phone_number}
                         onChange={this.changeHandler}
                         className="contact__form-input" 
@@ -183,7 +190,7 @@ import "./contact.css"
                     
                     <button type="submit" 
                     className="contact__application">
-                     Залишити заяву</button>
+                     Надіслати заяву</button>
  
                     
 
