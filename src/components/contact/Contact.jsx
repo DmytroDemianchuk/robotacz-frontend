@@ -72,7 +72,7 @@ import "./contact.css"
                         <h3 className="contact__card-title">Instagram</h3>
                         <span className="contact__card-data"></span>
 
-                        <a href="" className="contact__button">
+                        <a href="https://www.instagram.com/robota.ua_cz/?igshid=YmMyMTA2M2Y%3D" className="contact__button">
                             Переглянути сторінку{""}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
@@ -101,7 +101,7 @@ import "./contact.css"
                         <h3 className="contact__card-title">Messenger</h3>
                         <span className="contact__card-data"></span>
 
-                        <a href="https://www.facebook.com/"
+                        <a href="https://www.facebook.com/profile.php?id=100091492989540"
                         className="contact__button">
                             Переглянути сторінку{""}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
