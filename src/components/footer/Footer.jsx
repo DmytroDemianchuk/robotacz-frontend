@@ -25,18 +25,18 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                <a href="https://www.facebook.com/"
+                <a href="https://www.facebook.com/profile.php?id=100091492989540"
             className="footer__social-link-facebook" target="_blank"
             >
                 <i class="bx bxl-facebook"></i>
             </a>
 
-            <a href="https://instagram.com/"
+            <a href="https://www.instagram.com/robota.ua_cz/?igshid=YmMyMTA2M2Y%3D"
             className="footer__social-link-instagram" target="_blank">
                  <i class="bx bxl-instagram"></i>
             </a>
 
-            <a href="https://twitter.com/"
+            <a href="https://twitter.com/prace_cz_ua"
             className="footer__social-link-twitter" target="_blank">
                 <i class="bx bxl-twitter"></i>
             </a>

@@ -21,7 +21,7 @@ const Info = () => {
                  <i class="bx bx-support about__icon" ></i>
 
                 <h3 className="about__title">Підтримка</h3>
-                <span className="about__subtitle">На зв'язку 27/7</span>
+                <span className="about__subtitle">На зв'язку 24/7</span>
             </div>
         </div>
     )
