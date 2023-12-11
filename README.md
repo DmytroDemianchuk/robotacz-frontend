@@ -1,6 +1,8 @@
-# Frontend 
+# prace-cz-frontend 
+Prace CZ Web Site Frontend
 
-## Commands of application
-Use this command in the directory
-- `docker-compose up -d --build` - to run an application
-- `docker-compose down` - to stop an application
+Stage: <a href="http://localhost:80">http://localhost:80</a>
+
+## Run project
+- `make run` - to run an application
+- `make stop` - to stop an application
