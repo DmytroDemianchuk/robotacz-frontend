@@ -6,17 +6,17 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title">Робота в Чехії</h1>
+                <h1 className="footer__title">Work in the Czech Republic</h1>
 
                 <ul className="footer__list">
                     <li>
                         {/* <a href="#skills" className="footer__link">Допомога</a> */}
-                        <a>+420776058183</a>
+                        <a>+xxxxxxxxxxxx</a>
                     </li>
 
                     <li>
                         {/* <a href="#skills" className="footer__link">Допомога</a> */}
-                        <a>+420776058183</a>
+                        <a>+xxxxxxxxxxxx</a>
                     </li>
 {/* 
                     <li>

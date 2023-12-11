@@ -30,7 +30,7 @@ const Header = () => {
                             }
                         >
                             <i className="uil uil-estate nav__icon"></i>
-                             Головна
+                             Home
                         </a>
                     </li>
 
@@ -43,7 +43,7 @@ const Header = () => {
                              }
                         >     
                             <i className="uil uil-user nav__icon"></i>
-                             Про нас
+                             About us
                         </a>
                     </li>
 {/* 
@@ -91,7 +91,7 @@ const Header = () => {
                              }
                         >
                             <i className="uil uil-message nav__icon"></i>
-                            Контакти
+                            Contacts
                         </a>
                     </li>
                 </ul>

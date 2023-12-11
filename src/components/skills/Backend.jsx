@@ -3,14 +3,14 @@ import React from 'react'
 const Backend = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Ми вимагаємо:</h3>
+            <h3 className="skills__title">We require:</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">Дбати про безпеку</h3>
+                        <h3 className="skills__name">Take care of safety</h3>
                         {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                     </div>
@@ -18,7 +18,7 @@ const Backend = () => {
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">Правильно використовувати інструменти та інші засоби праці</h3>
+                        <h3 className="skills__name">Correctly use tools and other means of work</h3>
                         {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                     </div>
@@ -26,7 +26,7 @@ const Backend = () => {
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">Правильно використовувати засоби індивідуального захисту</h3>
+                        <h3 className="skills__name">Use personal protective equipment correctly</h3>
                         {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                     </div>
@@ -34,7 +34,7 @@ const Backend = () => {
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">Негайно повідомляти про будь-яку виробничу ситуацію</h3>
+                        <h3 className="skills__name">Report any production situation immediately</h3>
                         {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                     </div>
@@ -42,7 +42,7 @@ const Backend = () => {
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">Дотримуватися вимог нормативно-правових актів</h3>
+                        <h3 className="skills__name">To comply with the requirements of regulatory and legal acts</h3>
                         {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                     </div>

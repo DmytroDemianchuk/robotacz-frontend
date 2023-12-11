@@ -8,8 +8,8 @@ const About = () => {
         <section className="about section" id="pro_nas">
             <h2 className="section__title">Про нас</h2>
             <span className="section__subtitle">
-            У 2008 році ми вирішили створити агентство, в якому використали наш багаторічний досвід та навички, набуті у сфері працевлаштування.<p></p>
-                    Сфера нашої роботи — надавання роботи в Чехії на постійній основі.
+            In 2008, we decided to create an agency in which we used our many years of experience and skills acquired in the field of employment.<p></p>
+                    The scope of our work is to provide work in the Czech Republic on a permanent basis.
             </span>
 
             <div className="about__container container grid">
@@ -19,25 +19,24 @@ const About = () => {
                     <Info />
                     
                     <p className="about__description">
-                    Наша інтенсивна та успішна робота відображається у відмінних результатах. 
-                    Ми можемо похвалитися великою кількістю влаштованих працівників, 4000 з яких постійно працюючих  та понад 1000 самозайнятих.
+                    Our intensive and successful work is reflected in excellent results. 
+                    We boast a large number of employed workers, 4,000 of whom are permanently employed and over 1,000 self-employed.
                     </p>
             </div>
             </div>
-            <div className="about__opis_first">Головний офіс розміщується в сучасному приміщенні у місті Брно. 
-            Професійний підхід до бухгалтерського обліку, людських ресурсів та логістики забезпечується професійною командою, яка працюює з нами понад п'ятнадцяти років. 
-            Тісна співпраця з великою кільстю чеських будівельних фірм, дозволяє нам надавати людям роботи по всій Чехії.</div>
+            <div className="about__opis_first">The head office is located in a modern building in the city of Brno. 
+            A professional approach to accounting, human resources and logistics is provided by a professional team that has been working with us for over fifteen years. 
+            Close cooperation with a large number of Czech construction companies allows us to provide people with jobs throughout the Czech Republic.</div>
             
-            <div className="about__opis_second">Наші послуги досить різноманітні – 
-            від проектування й підготовки необхідної технічної документації до безпосереднього зведення будівлі й 
-            прокладення усіх внутрішніх систем, тобто будівництва об’єкту «під ключ».<p></p>
-            Використовуємо найсучасніші технології та підхід до роботи, 
-            несемо повну відповідальність за реалізацію об’єкту у встановлені терміни. 
-            Ось чому працювати з нами так вигідно та зручно! 
+            <div className="about__opis_second">Our services are quite diverse - from the design and 
+            preparation of the necessary technical documentation to the direct construction of the building and
+            laying of all internal systems, i.e. turnkey construction of the facility.<p></p>
+            We use the most modern technologies and approach to work, we bear full responsibility for the realization of the object 
+            within the established terms. That is why working with us is so profitable and convenient!
             </div>
 
-            <div className="about__opis_second">Ми маємо великі плани на майбутнє, наше бачення — розширення послуг на Словаччину та Угорщину. 
-            Для нас честь і втіха постійно вдосконалювати та покращувати послуги для задоволення наших клієнтів.</div>
+            <div className="about__opis_second">We have big plans for the future, our vision is to expand our services to Slovakia and Hungary. 
+            It is our honor and pleasure to constantly improve and improve our services for the satisfaction of our customers.</div>
         </section>
         
     )
