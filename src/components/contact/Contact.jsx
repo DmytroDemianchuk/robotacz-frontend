@@ -63,7 +63,7 @@ import "./contact.css"
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__instagram">data</h3>
+                    <h3 className="contact__instagram">Social media</h3>
 
                 <div className="contact__info">
                     <div className="contact__card">
@@ -149,7 +149,7 @@ import "./contact.css"
 
                         {/* input of birth_year */}
                         <div className="contact__form-div">
-                        <label className="contact__form-tag">date of birht</label>
+                        <label className="contact__form-tag">Date of birht</label>
                         <input 
                         type="text" 
                         name="birth_year" 
@@ -190,7 +190,7 @@ import "./contact.css"
                     
                     <button type="submit" 
                     className="contact__application">
-                     Send a statement</button>
+                     Send a message</button>
  
                     
 

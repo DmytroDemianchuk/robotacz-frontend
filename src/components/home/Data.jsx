@@ -13,7 +13,7 @@ const Data = () => {
 
          <div className="home__box">
         <a href="#kontakty" className="home__button">
-            Send a statement
+            Send a message
         </a>
         </div>
         </div>

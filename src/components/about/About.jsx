@@ -6,7 +6,7 @@ import Info from './Info'
 const About = () => {
     return (
         <section className="about section" id="pro_nas">
-            <h2 className="section__title">Про нас</h2>
+            <h2 className="section__title">About us</h2>
             <span className="section__subtitle">
             In 2008, we decided to create an agency in which we used our many years of experience and skills acquired in the field of employment.<p></p>
                     The scope of our work is to provide work in the Czech Republic on a permanent basis.
