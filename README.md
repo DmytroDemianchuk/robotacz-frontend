@@ -2,6 +2,7 @@
 Robota CZ Web Site Frontend
 
 Stage: <a href="http://localhost:3000">http://localhost:3000</a>
+Prod: In this moment this site does not running in a production server
 
 ## Run project
 - `make run` - to run an application
