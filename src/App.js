@@ -21,12 +21,10 @@ const App = () => {
       <Home />
       <About /> 
       <Skills />
-      {/* <Services /> */}
+
       <Contact />
-      {/* <PostForm /> */}
     </main>
     <Footer />
-    {/* <ScrollUp /> */}
     </>
   )
 }
