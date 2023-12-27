@@ -1,8 +1,21 @@
-# prace-cz-frontend 
-Prace CZ Web Site Frontend
+# Pobotacz-website-frontend
+Robota CZ Web Site Frontend
 
-Stage: <a href="http://localhost:80">http://localhost:80</a>
+Stage: <a href="http://localhost:3000">http://localhost:3000</a>
 
 ## Run project
 - `make run` - to run an application
 - `make stop` - to stop an application
+
+
+## Screenshots
+
+![image](../main/src/assets/robotacz.png)
+
+![image](../main/src/assets/requirements.png)
+
+![image](../main/src/assets/contacts.png)
+
+## Backend
+Backend of this site: https://github.com/DmytroDemianchuk/cz-api
+ 
