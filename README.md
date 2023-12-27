@@ -1,7 +1,8 @@
 # Pobotacz-website-frontend
 Robota CZ Web Site Frontend
 
-Stage: <a href="http://localhost:3000">http://localhost:3000</a>
+Stage: http://localhost:3000/
+
 Prod: In this moment this site does not running in a production server
 
 ## Run project
