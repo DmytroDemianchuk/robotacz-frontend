@@ -24,7 +24,7 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           script: |
             cd frontend
-            # git pull origin ci/cd
+            git pull origin main
 
             docker-compose up -d --build
             
