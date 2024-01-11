@@ -7,10 +7,6 @@ on:
 
 jobs:
 
-  build_and_push:
-    runs-on: ubuntu-latest
-
-
   deploy:
     environment: stage
     runs-on: ubuntu-latest
