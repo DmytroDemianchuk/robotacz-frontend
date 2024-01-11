@@ -1,0 +1,30 @@
+name: robotacz
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+
+  build_and_push:
+    runs-on: ubuntu-latest
+
+
+  deploy:
+    environment: stage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to Digital Ocean droplet via SSH action
+        uses: appleboy/ssh-action@v0.1.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSHKEY }}
+          script: |
+            cd frontend
+            # git pull origin ci/cd
+
+            docker-compose up -d --build
+            
