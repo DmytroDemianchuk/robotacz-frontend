@@ -22,4 +22,3 @@ Prod: In this moment this site does not running in a production server
 Backend of this site: https://github.com/DmytroDemianchuk/cz-api
 
 ### Update
-dasdaw
