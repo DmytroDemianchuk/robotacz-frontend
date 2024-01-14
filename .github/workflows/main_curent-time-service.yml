@@ -6,7 +6,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - curent-time-service
 on:
   push:
     branches:
-      - main
+      - v1
   workflow_dispatch:
 
 jobs:
