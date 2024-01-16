@@ -10,10 +10,9 @@ const Services = () => {
 
     return (
        <section className="services section" id="services">
-             <h2 className="section__title">Вакансії</h2>
-            <span className="section__subtitle">Мотивація персоналу — це створення сприятливих умов і<br></br> стимулів,
-             які спонукають співробітників працювати з більшою самовіддачею,
-              з націленістю на якість і результат.</span> 
+             <h2 className="section__title">Vacancies</h2>
+            <span className="section__subtitle">Staff motivation is the creation of favorable conditions and<br></br> incentives that encourage employees 
+            to work with greater dedication, with a focus on quality and results.</span> 
 
             <div className="services__container container grid">
 

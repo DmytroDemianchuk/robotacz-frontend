@@ -58,12 +58,12 @@ import "./contact.css"
 
                 //  is not yet FormList
         <section className="contact section" id="kontakty">
-            <h2 className="section__title">Будьмо на зв'язку !</h2>
-            <span className="section__subtitle">Наші контакти</span>
+            <h2 className="section__title">Let's be in touch!</h2>
+            <span className="section__subtitle">contacts</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__instagram">Наші дані</h3>
+                    <h3 className="contact__instagram">Social media</h3>
 
                 <div className="contact__info">
                     <div className="contact__card">
@@ -72,8 +72,8 @@ import "./contact.css"
                         <h3 className="contact__card-title">Instagram</h3>
                         <span className="contact__card-data"></span>
 
-                        <a href="https://www.instagram.com/robota.ua_cz/?igshid=YmMyMTA2M2Y%3D" className="contact__button">
-                            Переглянути сторінку{""}
+                        <a href="https://www.instagram.com/" className="contact__button">
+                            View page{""}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
@@ -86,11 +86,11 @@ import "./contact.css"
                         
 
                         <a className="contact__button">
-                        (+380)980129590</a>
+                        (+xxx)xxxxxxxxx</a>
                         <a className="contact__button">
-                        (+420)777590130</a>
+                        (+xxx)xxxxxxxxx</a>
                         <a className="contact__button">
-                        (+420)776058183</a>
+                        (+xxx)xxxxxxxxx</a>
 
                         {/* <i className="bx bx-right-arrow-alt contact__button-icon"></i></a> */}
                     </div>
@@ -101,9 +101,9 @@ import "./contact.css"
                         <h3 className="contact__card-title">Messenger</h3>
                         <span className="contact__card-data"></span>
 
-                        <a href="https://www.facebook.com/profile.php?id=100091492989540"
+                        <a href="https://www.facebook.com/"
                         className="contact__button">
-                            Переглянути сторінку{""}
+                            View page{""}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
@@ -111,14 +111,14 @@ import "./contact.css"
 
 {/* /PostForm */}
                 <div className="contact__content">
-                    <h3 className="contact__instagram">Заповнити заяву</h3>
+                    <h3 className="contact__instagram">Fill out the application</h3>
 
                     <form onSubmit={this.submitHandler}
                     className="contact__form">
 
                         {/* input of name */}
                         <div className="contact__form-div">
-                        <label className="contact__form-tag">Ім'я</label>
+                        <label className="contact__form-tag">Name</label>
                         <input 
                         type="text" 
                         name="name"
@@ -127,13 +127,13 @@ import "./contact.css"
                         value={name}
                         onChange={this.changeHandler}
                         className="contact__form-input" 
-                        placeholder="Введіть своє ім'я"
+                        placeholder="Input your name"
                         />
                         </div>
 
                         {/* input of phone_number */}
                         <div className="contact__form-div">
-                        <label className="contact__form-tag">Номер телефону</label>
+                        <label className="contact__form-tag">Phone number</label>
                         <input 
                         type="text" 
                         name="phone_number"
@@ -143,13 +143,13 @@ import "./contact.css"
                         value={phone_number}
                         onChange={this.changeHandler}
                         className="contact__form-input" 
-                        placeholder="Введіть свій номер телефону"
+                        placeholder="Input your phone number"
                         />
                         </div>
 
                         {/* input of birth_year */}
                         <div className="contact__form-div">
-                        <label className="contact__form-tag">Рік народженя</label>
+                        <label className="contact__form-tag">Date of birht</label>
                         <input 
                         type="text" 
                         name="birth_year" 
@@ -159,7 +159,7 @@ import "./contact.css"
                         value={birth_year}
                         onChange={this.changeHandler}
                         className="contact__form-input" 
-                        placeholder="Введіть свій рік народження"
+                        placeholder="Input your date of birht"
                         />
                         </div>
 
@@ -190,7 +190,7 @@ import "./contact.css"
                     
                     <button type="submit" 
                     className="contact__application">
-                     Надіслати заяву</button>
+                     Send a message</button>
  
                     
 

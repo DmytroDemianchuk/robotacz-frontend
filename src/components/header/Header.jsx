@@ -30,7 +30,7 @@ const Header = () => {
                             }
                         >
                             <i className="uil uil-estate nav__icon"></i>
-                             Головна
+                             Home
                         </a>
                     </li>
 
@@ -43,45 +43,10 @@ const Header = () => {
                              }
                         >     
                             <i className="uil uil-user nav__icon"></i>
-                             Про нас
+                             About us
                         </a>
                     </li>
-{/* 
-                    <li className="nav__item">
-                        <a href="#skills"
-                         onClick={() => setActiveNav('#skills')}
-                         className={activeNav === "#skills" ? "nav__link active-link"
-                         : "nav__link"
-                             }
-                        >        
-                            <i className="uil uil-file-alt nav__icon"></i>
-                             Допомога
-                        </a>
-                    </li> */}
-
-                    {/* <li className="nav__item">
-                        <a href="#services"
-                         onClick={() => setActiveNav('#services')}
-                         className={activeNav === "#services" ? "nav__link active-link"
-                         : "nav__link"
-                             }
-                        >
-                            <i className="uil uil-briefcase-alt nav__icon"></i>
-                             Вакансії
-                        </a>
-                    </li> */}
-
-                    {/* <li className="nav__item">
-                        <a href="#portfolio"
-                         onClick={() => setActiveNav('#portfolio')}
-                         className={activeNav === "#portfolio" ? "nav__link active-link"
-                         : "nav__link"
-                             }
-                        >
-                            <i className="uil uil-scenery nav__icon"></i>
-                             Portfolio
-                        </a>
-                    </li> */}
+                    
 
                     <li className="nav__item">
                         <a href="#kontakty"
@@ -91,7 +56,7 @@ const Header = () => {
                              }
                         >
                             <i className="uil uil-message nav__icon"></i>
-                            Контакти
+                            Contacts
                         </a>
                     </li>
                 </ul>
